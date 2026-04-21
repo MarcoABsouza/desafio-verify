@@ -111,3 +111,12 @@ Se quiser validar o endpoint sem executar a IA inteira, abra a UI do Swagger da 
 ### Link da conversa com a IA
 Acompanhe os detalhamentos e as tomadas de decisões arquiteturais na conversa de concepção técnica com a assistência da dupla virtual:
 [Gemini Share](https://gemini.google.com/share/052bad9fcd1c)
+
+Links utilizados para desenvolver a base do código:
+- https://modelcontextprotocol.io/docs/learn/architecture
+- https://github.com/google/adk-docs
+- https://fastapi.tiangolo.com/
+
+Para o desenvolvimento do projeto utilizei a IDE Antigravity, acompanhado da documentação oficial dos links mencionados anteriormente.
+
+Atrelado a isso segui o fluxograma desenvolvido na conversa com o gemini compartilhado para desenvolver o projeto.
