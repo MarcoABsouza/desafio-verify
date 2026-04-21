@@ -37,7 +37,30 @@ uv sync
 ```
 
 ### 3. Rodar o Transpilador
-Para verificar o Pydantic transformando a especificação JSON (que se encontra na pasta `transpiler/agente_config.json`) em código em `agente_gerado.py`:
+Abaixo, um exemplo da especificação do agente no formato JSON suportado (configurado em `transpiler/agente_config.json`):
+
+```json
+{
+    "nome_agente": "AssistenteLaboratorialCLI",
+    "descricao": "Agente responsável por ler pedidos médicos e agendar no sistema.",
+    "llm_config": {
+        "provider": "google-adk",
+        "modelo": "gemini-2.5-flash-lite"
+    },
+    "ferramentas_mcp": {
+        "ocr_server": "http://localhost:8001/sse",
+        "rag_server": "http://localhost:8002/sse"
+    },
+    "api_destino": {
+        "endpoint": "http://localhost:8000/agendamentos"
+    },
+    "seguranca": {
+        "usar_guardrail_pii": true
+    }
+}
+```
+
+Para engatilhar a _transpilação_ em tempo real que lê este JSON e gera o script (`agente_gerado.py`):
 ```bash
 uv run python transpiler/main.py
 ```
@@ -61,10 +84,27 @@ Nesta execução, o roteiro extrai inteiramente a lista de exames da imagem-test
 ![Logs da Execução CLI e Transpilação](./captura_logs.png)
 
 ### Inspeção via Swagger (FastAPI Target)
-Resultado da chamada do *Mock Backend* instanciado durante a finalização do processo (exposto dinamicamente após rodar a rede Docker na porta mapeada em `/docs`):
+Resultado da chamada do *Mock Backend* instanciado durante a finalização do processo (exposto dinamicamente após rodar a rede Docker na porta mapeada em `http://localhost:8000/docs`):
 Aqui, validamos o roteiro REST de Agendamento, certificando que as integrações ADK FunctionTool estão repassando a formatação estrita do modelo Pydantic para a API.
 
 ![Resposta na Interface Swagger GUI](./capturada_swagger.png)
+
+#### Payload para Teste Manual no Swagger (`/agendamentos`)
+Se quiser validar o endpoint sem executar a IA inteira, abra a UI do Swagger da API, clique em **Try it Out** no verbo `POST` e repasse esta extrutura:
+```json
+{
+  "exames": [
+    {
+      "codigo": "EX-0009",
+      "nome": "Hemograma Completo"
+    },
+    {
+      "codigo": "EX-0018",
+      "nome": "Glicemia de Jejum"
+    }
+  ]
+}
+```
 
 ---
 
