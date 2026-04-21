@@ -1,0 +1,527 @@
+[
+    {
+        "codigo": "EX-0001",
+        "nome": "Hemograma",
+        "descricao": "Avaliação das células sanguíneas (Hemograma)"
+    },
+    {
+        "codigo": "EX-0002",
+        "nome": "Hemograma de Jejum",
+        "descricao": "Avaliação das células sanguíneas (Hemograma de Jejum)"
+    },
+    {
+        "codigo": "EX-0003",
+        "nome": "Hemograma Pós-Prandial",
+        "descricao": "Avaliação das células sanguíneas (Hemograma Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0004",
+        "nome": "Hemograma Total",
+        "descricao": "Avaliação das células sanguíneas (Hemograma Total)"
+    },
+    {
+        "codigo": "EX-0005",
+        "nome": "Hemograma Frações",
+        "descricao": "Avaliação das células sanguíneas (Hemograma Frações)"
+    },
+    {
+        "codigo": "EX-0006",
+        "nome": "Hemograma Sérico",
+        "descricao": "Avaliação das células sanguíneas (Hemograma Sérico)"
+    },
+    {
+        "codigo": "EX-0007",
+        "nome": "Hemograma Urinário",
+        "descricao": "Avaliação das células sanguíneas (Hemograma Urinário)"
+    },
+    {
+        "codigo": "EX-0008",
+        "nome": "Glicemia",
+        "descricao": "Medição de açúcar no sangue (Glicemia)"
+    },
+    {
+        "codigo": "EX-0009",
+        "nome": "Glicemia de Jejum",
+        "descricao": "Medição de açúcar no sangue (Glicemia de Jejum)"
+    },
+    {
+        "codigo": "EX-0010",
+        "nome": "Glicemia Pós-Prandial",
+        "descricao": "Medição de açúcar no sangue (Glicemia Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0011",
+        "nome": "Glicemia Total",
+        "descricao": "Medição de açúcar no sangue (Glicemia Total)"
+    },
+    {
+        "codigo": "EX-0012",
+        "nome": "Glicemia Frações",
+        "descricao": "Medição de açúcar no sangue (Glicemia Frações)"
+    },
+    {
+        "codigo": "EX-0013",
+        "nome": "Glicemia Sérico",
+        "descricao": "Medição de açúcar no sangue (Glicemia Sérico)"
+    },
+    {
+        "codigo": "EX-0014",
+        "nome": "Glicemia Urinário",
+        "descricao": "Medição de açúcar no sangue (Glicemia Urinário)"
+    },
+    {
+        "codigo": "EX-0015",
+        "nome": "Colesterol",
+        "descricao": "Perfil lipídico (Colesterol)"
+    },
+    {
+        "codigo": "EX-0016",
+        "nome": "Colesterol de Jejum",
+        "descricao": "Perfil lipídico (Colesterol de Jejum)"
+    },
+    {
+        "codigo": "EX-0017",
+        "nome": "Colesterol Pós-Prandial",
+        "descricao": "Perfil lipídico (Colesterol Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0018",
+        "nome": "Colesterol Total",
+        "descricao": "Perfil lipídico (Colesterol Total)"
+    },
+    {
+        "codigo": "EX-0019",
+        "nome": "Colesterol Frações",
+        "descricao": "Perfil lipídico (Colesterol Frações)"
+    },
+    {
+        "codigo": "EX-0020",
+        "nome": "Colesterol Sérico",
+        "descricao": "Perfil lipídico (Colesterol Sérico)"
+    },
+    {
+        "codigo": "EX-0021",
+        "nome": "Colesterol Urinário",
+        "descricao": "Perfil lipídico (Colesterol Urinário)"
+    },
+    {
+        "codigo": "EX-0022",
+        "nome": "Triglicerídeos",
+        "descricao": "Avaliação de gordura no sangue (Triglicerídeos)"
+    },
+    {
+        "codigo": "EX-0023",
+        "nome": "Triglicerídeos de Jejum",
+        "descricao": "Avaliação de gordura no sangue (Triglicerídeos de Jejum)"
+    },
+    {
+        "codigo": "EX-0024",
+        "nome": "Triglicerídeos Pós-Prandial",
+        "descricao": "Avaliação de gordura no sangue (Triglicerídeos Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0025",
+        "nome": "Triglicerídeos Total",
+        "descricao": "Avaliação de gordura no sangue (Triglicerídeos Total)"
+    },
+    {
+        "codigo": "EX-0026",
+        "nome": "Triglicerídeos Frações",
+        "descricao": "Avaliação de gordura no sangue (Triglicerídeos Frações)"
+    },
+    {
+        "codigo": "EX-0027",
+        "nome": "Triglicerídeos Sérico",
+        "descricao": "Avaliação de gordura no sangue (Triglicerídeos Sérico)"
+    },
+    {
+        "codigo": "EX-0028",
+        "nome": "Triglicerídeos Urinário",
+        "descricao": "Avaliação de gordura no sangue (Triglicerídeos Urinário)"
+    },
+    {
+        "codigo": "EX-0029",
+        "nome": "TGO (AST)",
+        "descricao": "Enzima hepática (TGO (AST))"
+    },
+    {
+        "codigo": "EX-0030",
+        "nome": "TGO (AST) de Jejum",
+        "descricao": "Enzima hepática (TGO (AST) de Jejum)"
+    },
+    {
+        "codigo": "EX-0031",
+        "nome": "TGO (AST) Pós-Prandial",
+        "descricao": "Enzima hepática (TGO (AST) Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0032",
+        "nome": "TGO (AST) Total",
+        "descricao": "Enzima hepática (TGO (AST) Total)"
+    },
+    {
+        "codigo": "EX-0033",
+        "nome": "TGO (AST) Frações",
+        "descricao": "Enzima hepática (TGO (AST) Frações)"
+    },
+    {
+        "codigo": "EX-0034",
+        "nome": "TGO (AST) Sérico",
+        "descricao": "Enzima hepática (TGO (AST) Sérico)"
+    },
+    {
+        "codigo": "EX-0035",
+        "nome": "TGO (AST) Urinário",
+        "descricao": "Enzima hepática (TGO (AST) Urinário)"
+    },
+    {
+        "codigo": "EX-0036",
+        "nome": "TGP (ALT)",
+        "descricao": "Enzima hepática (TGP (ALT))"
+    },
+    {
+        "codigo": "EX-0037",
+        "nome": "TGP (ALT) de Jejum",
+        "descricao": "Enzima hepática (TGP (ALT) de Jejum)"
+    },
+    {
+        "codigo": "EX-0038",
+        "nome": "TGP (ALT) Pós-Prandial",
+        "descricao": "Enzima hepática (TGP (ALT) Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0039",
+        "nome": "TGP (ALT) Total",
+        "descricao": "Enzima hepática (TGP (ALT) Total)"
+    },
+    {
+        "codigo": "EX-0040",
+        "nome": "TGP (ALT) Frações",
+        "descricao": "Enzima hepática (TGP (ALT) Frações)"
+    },
+    {
+        "codigo": "EX-0041",
+        "nome": "TGP (ALT) Sérico",
+        "descricao": "Enzima hepática (TGP (ALT) Sérico)"
+    },
+    {
+        "codigo": "EX-0042",
+        "nome": "TGP (ALT) Urinário",
+        "descricao": "Enzima hepática (TGP (ALT) Urinário)"
+    },
+    {
+        "codigo": "EX-0043",
+        "nome": "Ureia",
+        "descricao": "Avaliação da função renal (Ureia)"
+    },
+    {
+        "codigo": "EX-0044",
+        "nome": "Ureia de Jejum",
+        "descricao": "Avaliação da função renal (Ureia de Jejum)"
+    },
+    {
+        "codigo": "EX-0045",
+        "nome": "Ureia Pós-Prandial",
+        "descricao": "Avaliação da função renal (Ureia Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0046",
+        "nome": "Ureia Total",
+        "descricao": "Avaliação da função renal (Ureia Total)"
+    },
+    {
+        "codigo": "EX-0047",
+        "nome": "Ureia Frações",
+        "descricao": "Avaliação da função renal (Ureia Frações)"
+    },
+    {
+        "codigo": "EX-0048",
+        "nome": "Ureia Sérico",
+        "descricao": "Avaliação da função renal (Ureia Sérico)"
+    },
+    {
+        "codigo": "EX-0049",
+        "nome": "Ureia Urinário",
+        "descricao": "Avaliação da função renal (Ureia Urinário)"
+    },
+    {
+        "codigo": "EX-0050",
+        "nome": "Creatinina",
+        "descricao": "Avaliação da função renal (Creatinina)"
+    },
+    {
+        "codigo": "EX-0051",
+        "nome": "Creatinina de Jejum",
+        "descricao": "Avaliação da função renal (Creatinina de Jejum)"
+    },
+    {
+        "codigo": "EX-0052",
+        "nome": "Creatinina Pós-Prandial",
+        "descricao": "Avaliação da função renal (Creatinina Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0053",
+        "nome": "Creatinina Total",
+        "descricao": "Avaliação da função renal (Creatinina Total)"
+    },
+    {
+        "codigo": "EX-0054",
+        "nome": "Creatinina Frações",
+        "descricao": "Avaliação da função renal (Creatinina Frações)"
+    },
+    {
+        "codigo": "EX-0055",
+        "nome": "Creatinina Sérico",
+        "descricao": "Avaliação da função renal (Creatinina Sérico)"
+    },
+    {
+        "codigo": "EX-0056",
+        "nome": "Creatinina Urinário",
+        "descricao": "Avaliação da função renal (Creatinina Urinário)"
+    },
+    {
+        "codigo": "EX-0057",
+        "nome": "Ácido Úrico",
+        "descricao": "Produto do metabolismo das purinas (Ácido Úrico)"
+    },
+    {
+        "codigo": "EX-0058",
+        "nome": "Ácido Úrico de Jejum",
+        "descricao": "Produto do metabolismo das purinas (Ácido Úrico de Jejum)"
+    },
+    {
+        "codigo": "EX-0059",
+        "nome": "Ácido Úrico Pós-Prandial",
+        "descricao": "Produto do metabolismo das purinas (Ácido Úrico Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0060",
+        "nome": "Ácido Úrico Total",
+        "descricao": "Produto do metabolismo das purinas (Ácido Úrico Total)"
+    },
+    {
+        "codigo": "EX-0061",
+        "nome": "Ácido Úrico Frações",
+        "descricao": "Produto do metabolismo das purinas (Ácido Úrico Frações)"
+    },
+    {
+        "codigo": "EX-0062",
+        "nome": "Ácido Úrico Sérico",
+        "descricao": "Produto do metabolismo das purinas (Ácido Úrico Sérico)"
+    },
+    {
+        "codigo": "EX-0063",
+        "nome": "Ácido Úrico Urinário",
+        "descricao": "Produto do metabolismo das purinas (Ácido Úrico Urinário)"
+    },
+    {
+        "codigo": "EX-0064",
+        "nome": "Sódio",
+        "descricao": "Eletrólito sérico (Sódio)"
+    },
+    {
+        "codigo": "EX-0065",
+        "nome": "Sódio de Jejum",
+        "descricao": "Eletrólito sérico (Sódio de Jejum)"
+    },
+    {
+        "codigo": "EX-0066",
+        "nome": "Sódio Pós-Prandial",
+        "descricao": "Eletrólito sérico (Sódio Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0067",
+        "nome": "Sódio Total",
+        "descricao": "Eletrólito sérico (Sódio Total)"
+    },
+    {
+        "codigo": "EX-0068",
+        "nome": "Sódio Frações",
+        "descricao": "Eletrólito sérico (Sódio Frações)"
+    },
+    {
+        "codigo": "EX-0069",
+        "nome": "Sódio Sérico",
+        "descricao": "Eletrólito sérico (Sódio Sérico)"
+    },
+    {
+        "codigo": "EX-0070",
+        "nome": "Sódio Urinário",
+        "descricao": "Eletrólito sérico (Sódio Urinário)"
+    },
+    {
+        "codigo": "EX-0071",
+        "nome": "Potássio",
+        "descricao": "Eletrólito sérico (Potássio)"
+    },
+    {
+        "codigo": "EX-0072",
+        "nome": "Potássio de Jejum",
+        "descricao": "Eletrólito sérico (Potássio de Jejum)"
+    },
+    {
+        "codigo": "EX-0073",
+        "nome": "Potássio Pós-Prandial",
+        "descricao": "Eletrólito sérico (Potássio Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0074",
+        "nome": "Potássio Total",
+        "descricao": "Eletrólito sérico (Potássio Total)"
+    },
+    {
+        "codigo": "EX-0075",
+        "nome": "Potássio Frações",
+        "descricao": "Eletrólito sérico (Potássio Frações)"
+    },
+    {
+        "codigo": "EX-0076",
+        "nome": "Potássio Sérico",
+        "descricao": "Eletrólito sérico (Potássio Sérico)"
+    },
+    {
+        "codigo": "EX-0077",
+        "nome": "Potássio Urinário",
+        "descricao": "Eletrólito sérico (Potássio Urinário)"
+    },
+    {
+        "codigo": "EX-0078",
+        "nome": "Cálcio",
+        "descricao": "Mineral circulante (Cálcio)"
+    },
+    {
+        "codigo": "EX-0079",
+        "nome": "Cálcio de Jejum",
+        "descricao": "Mineral circulante (Cálcio de Jejum)"
+    },
+    {
+        "codigo": "EX-0080",
+        "nome": "Cálcio Pós-Prandial",
+        "descricao": "Mineral circulante (Cálcio Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0081",
+        "nome": "Cálcio Total",
+        "descricao": "Mineral circulante (Cálcio Total)"
+    },
+    {
+        "codigo": "EX-0082",
+        "nome": "Cálcio Frações",
+        "descricao": "Mineral circulante (Cálcio Frações)"
+    },
+    {
+        "codigo": "EX-0083",
+        "nome": "Cálcio Sérico",
+        "descricao": "Mineral circulante (Cálcio Sérico)"
+    },
+    {
+        "codigo": "EX-0084",
+        "nome": "Cálcio Urinário",
+        "descricao": "Mineral circulante (Cálcio Urinário)"
+    },
+    {
+        "codigo": "EX-0085",
+        "nome": "TSH",
+        "descricao": "Hormônio estimulante da tireoide (TSH)"
+    },
+    {
+        "codigo": "EX-0086",
+        "nome": "TSH de Jejum",
+        "descricao": "Hormônio estimulante da tireoide (TSH de Jejum)"
+    },
+    {
+        "codigo": "EX-0087",
+        "nome": "TSH Pós-Prandial",
+        "descricao": "Hormônio estimulante da tireoide (TSH Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0088",
+        "nome": "TSH Total",
+        "descricao": "Hormônio estimulante da tireoide (TSH Total)"
+    },
+    {
+        "codigo": "EX-0089",
+        "nome": "TSH Frações",
+        "descricao": "Hormônio estimulante da tireoide (TSH Frações)"
+    },
+    {
+        "codigo": "EX-0090",
+        "nome": "TSH Sérico",
+        "descricao": "Hormônio estimulante da tireoide (TSH Sérico)"
+    },
+    {
+        "codigo": "EX-0091",
+        "nome": "TSH Urinário",
+        "descricao": "Hormônio estimulante da tireoide (TSH Urinário)"
+    },
+    {
+        "codigo": "EX-0092",
+        "nome": "T4 Livre",
+        "descricao": "Hormônio tireoidiano (T4 Livre)"
+    },
+    {
+        "codigo": "EX-0093",
+        "nome": "T4 Livre de Jejum",
+        "descricao": "Hormônio tireoidiano (T4 Livre de Jejum)"
+    },
+    {
+        "codigo": "EX-0094",
+        "nome": "T4 Livre Pós-Prandial",
+        "descricao": "Hormônio tireoidiano (T4 Livre Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0095",
+        "nome": "T4 Livre Total",
+        "descricao": "Hormônio tireoidiano (T4 Livre Total)"
+    },
+    {
+        "codigo": "EX-0096",
+        "nome": "T4 Livre Frações",
+        "descricao": "Hormônio tireoidiano (T4 Livre Frações)"
+    },
+    {
+        "codigo": "EX-0097",
+        "nome": "T4 Livre Sérico",
+        "descricao": "Hormônio tireoidiano (T4 Livre Sérico)"
+    },
+    {
+        "codigo": "EX-0098",
+        "nome": "T4 Livre Urinário",
+        "descricao": "Hormônio tireoidiano (T4 Livre Urinário)"
+    },
+    {
+        "codigo": "EX-0099",
+        "nome": "Vitamina D",
+        "descricao": "Avaliação vitamínica (Vitamina D)"
+    },
+    {
+        "codigo": "EX-0100",
+        "nome": "Vitamina D de Jejum",
+        "descricao": "Avaliação vitamínica (Vitamina D de Jejum)"
+    },
+    {
+        "codigo": "EX-0101",
+        "nome": "Vitamina D Pós-Prandial",
+        "descricao": "Avaliação vitamínica (Vitamina D Pós-Prandial)"
+    },
+    {
+        "codigo": "EX-0102",
+        "nome": "Vitamina D Total",
+        "descricao": "Avaliação vitamínica (Vitamina D Total)"
+    },
+    {
+        "codigo": "EX-0103",
+        "nome": "Vitamina D Frações",
+        "descricao": "Avaliação vitamínica (Vitamina D Frações)"
+    },
+    {
+        "codigo": "EX-0104",
+        "nome": "Vitamina D Sérico",
+        "descricao": "Avaliação vitamínica (Vitamina D Sérico)"
+    },
+    {
+        "codigo": "EX-0105",
+        "nome": "Vitamina D Urinário",
+        "descricao": "Avaliação vitamínica (Vitamina D Urinário)"
+    }
+]

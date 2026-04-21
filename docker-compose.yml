@@ -1,0 +1,26 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    container_name: api-agendamento
+    ports:
+      - "8000:8000"
+
+  mcp-ocr:
+    build:
+      context: .
+      dockerfile: mcp-ocr/Dockerfile
+    container_name: mcp-servidor-ocr
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./testes:/app/testes
+
+  mcp-rag:
+    build:
+      context: .
+      dockerfile: mcp-rag/Dockerfile
+    container_name: mcp-servidor-rag
+    ports:
+      - "8002:8002"

@@ -1,0 +1,18 @@
+{
+    "nome_agente": "AssistenteLaboratorialCLI",
+    "descricao": "Agente responsável por ler pedidos médicos, extrair exames, anonimizar dados e agendar no sistema.",
+    "llm_config": {
+        "provider": "google-adk",
+        "modelo": "gemini-2.5-flash-lite"
+    },
+    "ferramentas_mcp": {
+        "ocr_server": "http://localhost:8001/sse",
+        "rag_server": "http://localhost:8002/sse"
+    },
+    "api_destino": {
+        "endpoint": "http://localhost:8000/agendamentos"
+    },
+    "seguranca": {
+        "usar_guardrail_pii": true
+    }
+}
